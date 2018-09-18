@@ -1,0 +1,84 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+  font-size: 16px
+}
+input {
+  font-size: 16px;
+}
+.top {
+  background-color: #999999;
+  padding: 20px;
+  font-size: 30px;
+}
+.name {
+  background-color: #CCCCCC;
+  padding: 5px 15px;
+}
+.content {
+  background-color: #eeeeee;
+  color: #0099CC;
+  padding: 5px;
+  margin-bottom: 3px;
+}
+.content p {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.line {
+  display: block;
+  background-color: #eeeeee;
+  margin: 2px 0;
+  padding: 10px;
+  text-decoration: none;
+  color: #0099CC;
+  cursor: pointer;
+}
+
+.line:hover {
+  color: #000000;
+  background-color: #bbbbbb;
+}
+.copyright {
+  background-color: #999999;
+  padding: 20px;
+}
+.error {
+  background-color: #FF3300;
+  padding: 3px;
+}
+.success {
+  background-color: #33FF66;
+  padding: 3px;
+}
+.game {
+  text-align: center;
+}
+.game-chest {
+  width: 50px;
+  height: 50px;
+  background-image: url(../img/chest.png);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+table {
+  width: 100%;
+  text-align: center;
+}
+.win-first a {
+  color: #ffd700;
+}
+.win-second a {
+  color: #c0c0c0;
+}
+.win-third a {
+  color: #cd7f32;
+}
+img.avatar {
+  display: block;
+  margin: 0 auto;
+}
